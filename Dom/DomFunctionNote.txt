@@ -1,0 +1,6 @@
+ When to Use .submit()?
+✅ After validation (as in your case).
+✅ When submitting dynamically (e.g., AJAX-like behaviors).
+✅ When submitting without a button (e.g., automatic submission).
+
+//--------------------------------
