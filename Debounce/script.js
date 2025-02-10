@@ -2,13 +2,15 @@ function debounce(func, delay) {
   let timer;
   return function (...args) {
     clearTimeout(timer);
-    timer = setTimeout(() => func.apply(this, args), delay);
+    timer = setTimeout(() => func(), delay);
   };
 }
 
-// Example Usage: Debouncing Input Event
-const handleInput = debounce((event) => {
-  console.log(`User input: ${event.target.value}`);
-}, 2500);
+// Example Usage: Debouncing Button Click Event
+const handleClick = debounce(() => {
+  console.log("Button clicked!");
+}, 1000);
 
-document.getElementById("searchBox").addEventListener("input", handleInput);
+document
+  .getElementById("debounceButton")
+  .addEventListener("click", handleClick);
