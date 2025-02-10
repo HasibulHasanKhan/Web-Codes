@@ -1,0 +1,14 @@
+* Context in Arrow Functions (this is Lexical)
+Arrow functions do not have their own this. They inherit this from their surrounding scope.
+
+const obj = {
+    name: "Alice",
+    sayHello: () => {
+        console.log(this.name);
+    }
+};
+
+obj.sayHello(); // `this` refers to the outer scope (window), so undefined
+
+Since sayHello is an arrow function, this does not refer to obj but instead to the surrounding context (window).
+//------------------------------------
