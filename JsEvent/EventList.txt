@@ -1,0 +1,81 @@
+JavaScript has a wide range of events that can be used to handle user interactions and other actions. Here’s a categorized list of JavaScript events:
+
+1. Mouse Events
+Event	Description
+click	Fires when an element is clicked.
+dblclick	Fires when an element is double-clicked.
+mousedown	Fires when a mouse button is pressed down.
+mouseup	Fires when a mouse button is released.
+mousemove	Fires when the mouse is moved.
+mouseover	Fires when the mouse enters an element.
+mouseout	Fires when the mouse leaves an element.
+mouseenter	Fires when the mouse enters an element (does not bubble).
+mouseleave	Fires when the mouse leaves an element (does not bubble).
+contextmenu	Fires when the right mouse button is clicked.
+
+2. Keyboard Events
+Event	Description
+keydown	Fires when a key is pressed down.
+keyup	Fires when a key is released.
+keypress	(Deprecated) Fires when a key is pressed down.
+
+3. Form Events
+Event	Description
+submit	Fires when a form is submitted.
+reset	Fires when a form is reset.
+focus	Fires when an element gains focus.
+blur	Fires when an element loses focus.
+change	Fires when the value of an input element changes.
+input	Fires when an input value is modified.
+invalid	Fires when an input element is invalid.
+select	Fires when text is selected.
+
+4. Clipboard Events
+Event	Description
+copy	Fires when content is copied.
+cut	Fires when content is cut.
+paste	Fires when content is pasted.
+5. Drag & Drop Events
+Event	Description
+drag	Fires when an element is dragged.
+dragstart	Fires when the dragging starts.
+dragend	Fires when the dragging ends.
+dragenter	Fires when a dragged element enters a valid drop target.
+dragleave	Fires when a dragged element leaves a valid drop target.
+dragover	Fires when a dragged element is over a valid drop target.
+drop	Fires when an element is dropped.
+
+6. Window Events
+Event	Description
+load	Fires when a page is fully loaded.
+unload	Fires when a page is unloaded.
+scroll	Fires when scrolling occurs.
+resize	Fires when the window is resized.
+hashchange	Fires when the URL hash changes.
+beforeunload	Fires before the page unloads.
+error	Fires when an error occurs.
+
+7. Touch Events (for mobile devices)
+Event	Description
+touchstart	Fires when a touch starts.
+touchmove	Fires when a touch moves.
+touchend	Fires when a touch ends.
+touchcancel	Fires when a touch is interrupted.
+
+8. Media Events
+Event	Description
+play	Fires when playback starts.
+pause	Fires when playback is paused.
+ended	Fires when playback ends.
+volumechange	Fires when volume changes.
+timeupdate	Fires when the media playback position changes.
+waiting	Fires when the media is waiting for data.
+
+9. Miscellaneous Events
+Event	Description
+DOMContentLoaded	Fires when the initial HTML is loaded and parsed.
+animationstart	Fires when a CSS animation starts.
+animationend	Fires when a CSS animation ends.
+transitionend	Fires when a CSS transition completes.
+fullscreenchange	Fires when the fullscreen mode changes.
+pointerdown	Fires when a pointer (mouse, touch, pen) is pressed.
